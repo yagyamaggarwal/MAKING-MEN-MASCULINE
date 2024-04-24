@@ -1,0 +1,43 @@
+#center{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#center p{
+    font-family: "Jersey 20 Charted", sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.78rem;
+    color: grey;
+  }
+  
+#center img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+} 
+
+h2{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+      
+}
+#vid{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.foot span{
+   display: block;
+}
