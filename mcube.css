@@ -12,7 +12,7 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 1.78rem;
+    font-size: 1.8em;
     color: grey;
   }
   
@@ -22,6 +22,27 @@
     border-radius: 50%;
 } 
 
+@media(max-width: 450px){
+   #center p{
+font-size: 16px;
+font-family:sans-serif;
+   }
+   #center img{
+    height: 30vh;
+    width: 30vh;
+   }
+   h2{
+    text-align: center;
+    margin: auto;
+    font-family: "IBM Plex Serif",serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-style: italic;
+    display:block;
+    color: red;
+   }
+
+}
 h2{
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
